@@ -5,11 +5,11 @@
         "name": "PixelStreak",
         "year": 2025,
         "description": "Transform your daily habits into beautiful pixel art. Each completed habit reveals a piece of stunning artwork, making habit tracking fun and visually rewarding.",
-        "detailedDescription": "PixelStreak combines the power of habit tracking with the satisfaction of revealing pixel art. Every time you complete a habit, you unlock pixels that gradually reveal beautiful artwork. Stay motivated by watching your streaks grow while creating stunning visual masterpieces, one habit at a time. Built with privacy-first architecture, all your personal data stays securely on your device.",
+        "detailedDescription": "PixelStreak combines the power of habit tracking with the satisfaction of revealing pixel art. Every time you complete a habit, you unlock pixels that gradually reveal beautiful artwork. Stay motivated by watching your streaks grow while creating stunning visual masterpieces, one habit at a time. PixelStreak is designed with a strict no-data-collection approach: no personal data is collected, stored on external servers, or shared with third parties.",
         "subDescription": [
             "Complete habits to reveal pixel art masterpieces",
             "Track daily streaks with flame indicators",
-            "All personal data stored locally on your device",
+            "No personal data collection or accounts",
             "Gamified habit tracking that keeps you motivated"
         ],
         "category": "Productivity",
@@ -19,11 +19,11 @@
         "features": [
             "Unique pixel art reveal mechanic for completed habits",
             "Daily habit tracking with visual streak counters",
-            "Personalized experience with custom name input",
+            "No sign-up or account required",
+            "No personal data collection",
             "Clean, modern Material Design interface",
-            "Privacy-first: personal data stored locally on device",
-            "Beautiful avatar and pixel art generation using DiceBear API",
-            "Beautiful animations and smooth transitions",
+            "Beautiful pixel art generation using DiceBear API",
+            "Smooth animations and delightful micro-interactions",
             "Dark and light theme support",
             "Customizable habit schedules and durations",
             "Motivational flame icons for active streaks"
@@ -32,55 +32,47 @@
         "playstore": "",
         "website": "",
         "privacyPolicy": {
-            "lastUpdated": "2025-12-30",
+            "lastUpdated": "2025-12-31",
             "sections": [
                 {
-                    "title": "Information We Collect",
-                    "content": "PixelStreak collects your name for app functionality, which is stored ONLY on your device and used exclusively to personalize your experience within the app. Additionally, the app stores: habits you create (name, schedule, duration), completion history and streaks, pixel art progress, and app settings/preferences. All data is stored locally using Android's secure storage (SharedPreferences and SQLite database) and remains completely private to you. Your name and personal data are never transmitted to our servers or any third parties."
+                    "title": "No Personal Data Collection",
+                    "content": "PixelStreak does not collect, store, or process any personal data. The app does not require you to provide your name, email address, or any other personally identifiable information. No user accounts or sign-ins are required, and no personal data is transmitted to servers or third parties."
                 },
                 {
-                    "title": "How We Use Your Information",
-                    "content": "Your name is collected and stored locally to personalize your app experience by displaying it within the app interface. Your other locally stored information is used to: track your habit completion and streaks, reveal pixel art based on your progress, and save your app preferences and settings. All your personal data remains on your device. We have no access to your information and it is never transmitted anywhere."
+                    "title": "Local App Data",
+                    "content": "PixelStreak may store non-personal app data locally on your device, such as your habits, completion status, streaks, and app preferences. This data is used solely to provide core app functionality and remains on your device. It is not synced, uploaded, or shared with any external servers."
                 },
                 {
-                    "title": "Third-Party Services",
-                    "content": "PixelStreak uses DiceBear Avatars API (https://dicebear.com) to generate avatar and pixel art images displayed in the app. Important: No personal user data is sent to DiceBear. The app sends only generic seed values (random strings or identifiers) to DiceBear's API to generate unique images. These seed values do not contain your name, habits, or any personal information. DiceBear simply generates images based on these seed values and does not store any data. For more information, please review DiceBear's privacy policy at https://dicebear.com. Apart from DiceBear for image generation, PixelStreak does NOT use: analytics services (e.g., Google Analytics, Firebase Analytics), crash reporting tools (e.g., Crashlytics), advertising networks, social media integrations, or cloud storage/backup services."
+                    "title": "Third-Party Services (DiceBear API for Pixel Art)",
+                    "content": "PixelStreak uses the DiceBear API (https://dicebear.com) to generate pixel art images that are revealed as you complete your habits. The app sends only non-personal, generic seed values (random strings or identifiers) to DiceBear to request unique pixel art images. No personal data, user identifiers, or habit information is sent to DiceBear. DiceBear receives only these generic seeds to generate images and does not receive or store any user-specific personal information [web:166][web:168]."
                 },
                 {
-                    "title": "Internet Connection",
-                    "content": "PixelStreak requires an internet connection only to load images from DiceBear API for: generating avatar images and pixel art images used in the reveal feature. Once images are loaded and cached, they can be viewed offline. All core app functionality works without internet, including: habit tracking, streak counting, marking habits as complete, and tracking your pixel reveal progress. Your personal data (name, habits, progress) is never transmitted over the internet under any circumstances."
+                    "title": "Internet Usage",
+                    "content": "An internet connection is required only to load pixel art images from the DiceBear API for the reveal feature. This involves sending non-personal seed values to generate images. All habit-related data, streaks, and preferences remain stored locally on your device and are never transmitted over the internet [web:165][web:169]."
                 },
                 {
-                    "title": "Data We Do NOT Transmit",
-                    "content": "We do NOT transmit, upload, or sync any of your personal data to our servers or third parties. This includes: Your name, your habit names or details, your completion history or streaks, your pixel art progress, your app settings or preferences, or any other personal information. The only internet requests made by the app are to DiceBear API to load images using generic seed values that do not contain any of your personal data."
+                    "title": "Data We Do Not Collect",
+                    "content": "PixelStreak does not collect or store: names, email addresses, usernames, passwords, contact information, precise location data, habit descriptions on any server, analytics events, advertising identifiers, device identifiers, or any other personally identifiable information. No tracking, profiling, or analytics are performed [web:170]."
                 },
                 {
-                    "title": "No User Accounts Required",
-                    "content": "PixelStreak does not require any user accounts, login credentials, email addresses, or registration. You simply enter your name locally in the app for personalization - it is stored only on your device and never transmitted. No authentication or account creation occurs."
-                },
-                {
-                    "title": "Data Security",
-                    "content": "All your personal data (name, habits, streaks, progress) is stored locally on your device using Android's secure storage mechanisms (SharedPreferences and SQLite database). Your data never leaves your device. The app communicates with DiceBear API via HTTPS only to load images using generic seed values that do not contain your personal information. We implement secure coding practices to protect your local data from unauthorized access."
-                },
-                {
-                    "title": "Data Export and Deletion",
-                    "content": "You have full control over your data: Export - You can export your habits data as a JSON backup file from the app's settings at any time. This file remains under your control and can be saved wherever you choose. Deletion - You can delete all your app data at any time through the app's settings, or by clearing app data in your device settings, or by uninstalling the app from your device. Images loaded from DiceBear may be cached temporarily and can be cleared through app cache settings."
+                    "title": "Data Control and Deletion",
+                    "content": "All app-related data (such as habits and streaks) is stored locally on your device. You can delete this data at any time by clearing the app data in your device settings or by uninstalling the app. Because no data is stored on external servers, there is nothing for us to access, modify, or delete on your behalf."
                 },
                 {
                     "title": "Children's Privacy",
-                    "content": "PixelStreak collects only a name for app functionality, which is stored locally on the device and never transmitted to any server. The app uses DiceBear API to load images but does not send any personal information to DiceBear. We do not knowingly collect or transmit any personal information from children under 13. Parents should supervise their children's use of the app."
+                    "content": "PixelStreak is designed so that it does not collect any personal data from any user, including children. Since no personal information is collected, stored, or transmitted, the app can be used without providing identifying details. Parents or guardians should still supervise app usage as part of general device use [web:168]."
                 },
                 {
                     "title": "Permissions",
-                    "content": "PixelStreak may request the following device permissions: Internet - required to load avatar and pixel art images from DiceBear API; Storage (if applicable) - only to save/load backup files you choose to export/import locally on your device; Notifications (if applicable) - only to send local device reminders for your habits (these are generated locally on your device and not sent through any server)."
-                },
-                {
-                    "title": "Your Rights and Control",
-                    "content": "Since we don't collect or transmit your data to any servers, there's no data for us to access, modify, or delete remotely. You have complete control over your data on your device at all times. You can view all your data within the app, export it as a backup file, modify it by editing habits and settings, or delete it entirely through app settings or by uninstalling the app."
+                    "content": "PixelStreak may request the following device permissions: Internet – used only to fetch pixel art images from the DiceBear API using non-personal seed values for the reveal feature; Notifications (if implemented) – used only to show local reminders on your device. No permission is used to collect or transmit personal data [web:166]."
                 },
                 {
                     "title": "Changes to This Policy",
-                    "content": "We may update this privacy policy from time to time to reflect changes in the app, features, or legal requirements. Any changes will be reflected on this page with an updated 'Last Updated' date. We encourage you to review this policy periodically. You can check this policy online at our website or GitHub repository at any time."
+                    "content": "We may update this privacy policy from time to time to reflect changes in the app or legal requirements. Any updates will be indicated by an updated 'Last Updated' date. If the data practices change to include any form of personal data collection, this policy will be updated before such changes take effect."
+                },
+                {
+                    "title": "Contact Us",
+                    "content": "If you have any questions about this Privacy Policy or PixelStreak, you can contact the developer at: Developer: CoreBytes01, Email: corebytes01+support@gmail.com, App: PixelStreak – Habit Tracker."
                 }
             ]
         }
